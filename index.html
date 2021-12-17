@@ -1,24 +1,95 @@
 <!DOCTYPE html>
-<html lang="en">
+<!-- *****************************************************
+NOMBRE: ALAN
+APELLIDOS: MARCOS
+*********************************************************** -->
+<html>
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>index</title>
+	<meta charset="utf-8" />
+
+	<link rel="stylesheet" href="Pr3_alanMarcos.css" />
+	<title>Delicias Kitchen</title>
 </head>
 <body>
     <header>
-        <nav><ul>
-            <li><a href="">Lista de recetas</a></li>
-            <li><a href="">Contactos</a></li>
-        </ul>
+        <figure>
+            <img src="imagenes/Logo-Delicias.png" alt="image header">
+        </figure>
+        <hr>
+        <nav>
+            <ul>
+                <li><a href="listado/listado.html">Lista de recetas</a></li> <!--anchor a la pagina de lista-->
+                <li><a href="contacto/contacto.html">Contactos</a></li> <!--anchor al formulario-->
+            </ul>
         </nav>
+        <hr>
     </header>
-    <main>
-        <div>
-            <aside>Tiene el perfil y datos personales</aside>
-            <div>Contendrá el listado de las recetas</div> 
-        </div>
+    <main class="index">
+        
+        <aside>
+            <h4>Sobre mí</h4>
+            <figure><img src="imagenes/isagil.png" alt="foto perfil" sizes=""></figure>
+            <p>
+                Hola, bienvenid@ a mi blog, un espacio donde quiero compartir mis recetas vegetarianas y veganas favoritas...
+            </p>
+            <h4>Suscríbete a mi blog</h4>
+            <figure><img src="imagenes/libro.png" alt="libro" sizes=""></figure>
+            <p>
+                Y consigue GRATIS mi eBook con 10 recetas exclusivas con superalimentos.
+                Apúntame
+            </p>
+        </aside>
+
+        <section>
+        
+            <article class="Receta1">
+                <figure><img src="imagenes/Pasta.jpg" alt=""></figure>
+                <h4> <a href="receta/receta.html">Pasta con salsa de coliflor y pimienta de Jamaica</a></h4> <!--cada h4 de articles debe tener anchor, que llevará a la receta-->
+                <h5>13 marzo, 2019</h5>
+                <p>Una salsa vegana para la pasta, tan sabrosa y cremosa que resulta irresistible! Está elaborada con coliflor y
+                    con
+                    otros ingredientes vegetales, que la convierten en…</p>
+            </article>
+
+            <article class="Receta2">
+                <figure><img src="imagenes/galletas.jpg" alt=""></figure>
+                <h4> Galletas de avena, rosa y lima</h4> <!--cada h4 de articles debe tener anchor, que llevará a la receta-->
+                <h5>12 febrero, 2019</h5>
+                <p>Galletitas para San Valentín? Estas galletas ricas y crujientes, elaboradas con avena y con un rico sabor a rosa y
+                    lima son perfectas para celebrarlo!</p>
+            </article>
+        
+            <article class="Receta3">
+                <figure><img src="imagenes/mijo.jpg" alt=""></figure>
+                <h4>Mijo cremoso con lentejas, hortalizas y shiitake</h4> <!--cada h4 de articles debe tener anchor, que llevará a la receta-->
+                <h5>1 febrero, 2019</h5>
+                <p>Un buen plato de mijo cremoso con lentejas y hortalizas es todo lo que necesitas para templar el cuerpo este
+                    invierno! Delicioso y fácil!</p>
+            </article>
+            
+            <article class="Receta4">
+                <figure><img src="imagenes/calabacines.jpg" alt=""></figure>
+                <h4>Calabacines rellenos de arroz negro y calabaza</h4> <!--cada h4 de articles debe tener anchor, que llevará a la receta-->
+                <h5>18 diciembre, 2018</h5>
+                <p>Estos calabacines rellenos de arroz negro y calabaza que te propongo hoy, son la última receta que publico en el
+                    blog en…</p>
+            </article>
+	
+        </section>
+        
     </main>
-    <footer></footer>
+    <footer>
+        <nav>
+            <ul>
+                <li><a href="">facebook</a></li>
+                <li><a href="">twitter</a></li>
+                <li><a href="">instagram</a></li>
+                <li><a href="">pinterest</a></li>
+                <li><a href="">email</a></li>
+                <li><a href="">rss</a></li>
+            </ul>
+        </nav>
+    </footer>
 </body>
 </html>
