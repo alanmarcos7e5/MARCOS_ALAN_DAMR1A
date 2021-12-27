@@ -1,0 +1,82 @@
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: white;
+}
+
+header figure {
+    width: fit-content;
+    margin: auto;
+}   
+
+nav ul {
+    list-style: none;
+    width: fit-content;
+    padding: 0%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+nav ul li{
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+nav ul li a {
+    display: block;
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    color: black;
+}
+
+nav ul li a:hover{
+    color: #7ABA96;
+}
+
+main {
+    padding: 16rem;
+}
+
+/*TODO: Revisar los width de los contenedores*/
+
+.index {
+    display: flex;
+}
+
+.index section {
+    border: solid black;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.index section article {
+    border: solid black;
+    width: 45%;
+}
+
+.index section article figure {
+    border: solid black;
+    width: 100%;
+    margin: 0;
+}
+
+.index section article figure img {
+    width: auto;
+    max-width: 100%;
+}
+
+aside p{
+    color: grey;
+}
+
+footer {
+    background-color: black;
+}
+footer nav ul li a {
+    color: white;
+}
