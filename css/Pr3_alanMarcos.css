@@ -30,6 +30,7 @@ nav ul li a {
     padding: 0.5rem 1rem;
     text-decoration: none;
     color: black;
+    text-transform: uppercase;
 }
 
 nav ul li a:hover{
@@ -37,30 +38,31 @@ nav ul li a:hover{
 }
 
 main {
-    padding: 16rem;
+    padding: 14rem;
 }
 
 /*TODO: Revisar los width de los contenedores*/
 
 .index {
     display: flex;
+    border: solid black;
+    padding: 0;
+    padding-top: 14rem;
 }
 
 .index section {
-    border: solid black;
     width: 100%;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    margin-left: 2rem;
 }
 
 .index section article {
-    border: solid black;
     width: 45%;
 }
 
 .index section article figure {
-    border: solid black;
     width: 100%;
     margin: 0;
 }
@@ -70,13 +72,76 @@ main {
     max-width: 100%;
 }
 
+.index section article h4 a {
+    text-decoration: none;
+    color: black;
+}
+
+.index section article h5 {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    font-weight: normal;
+    text-align: center;
+}
+
+.index section article hr {
+    border-color: #7ABA96;
+    margin: 0;
+}
+
+aside {
+    width: 25%;
+}
+
+aside h4 {
+    text-align: center;
+}
+
+aside figure {
+    width: fit-content;
+    margin: auto;
+}
+
 aside p{
     color: grey;
 }
 
+.RecuadroAside {
+    background: blanchedalmond;
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+}
+
+.RecuadroAside a {
+    background: #7ABA96;
+    padding: 0.5rem;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
+
+/*TODO Revisar para centrar los items de la lista */
+
 footer {
-    background-color: black;
+    background-color: blue;
+    width: 100%;
+    height: 5rem;
+    align-content: center;
+    padding: 0;
+}
+
+footer nav {
+    border: solid black
+}
+
+footer nav ul {
+    margin: auto;
+    border: solid black
 }
 footer nav ul li a {
     color: white;
+    text-align: center  ;
 }
