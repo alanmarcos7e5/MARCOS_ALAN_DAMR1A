@@ -27,21 +27,26 @@ APELLIDOS: MARCOS
         </nav>
         <hr>
     </header>
-    <main>
+    <main class="contacto">
         <form action="formActions.html" method="get">
-            <label for="name">Name:</label>
-            <input type="text" name="name" id="name"><br><br>
-            <label for="email">Email:</label>
-            <input type="email" name="email" id="email"><br><br>
-            <label for="password">Password:</label>
-            <input type="password" name="password" id="password"><br><br>
-            <label for="url">Copia el link de tu receta: </label>
-            <input type="url" name="url" id="url"><br><br>
-            <label for="comment">Envíanos tu comentario:</label><br>
-            <input class="comment" type="text" name="comment" id="comment"><br><br> 
-            <input type="submit" value="Enviar">        
+            <div class="nombreLink">
+                    <label for="name">Nombre:</label>
+                    <input type="text" name="name" id="name">
+                    <label for="url">Copia el link de tu receta: </label>
+                    <input type="url" name="url" id="url">
+            </div>
+            <br>
+            <div class="mail">
+                <label for="email">Email:</label>
+                <input type="email" name="email" id="email">
+                <label for="password">Contraseña:</label>
+                <input type="password" name="password" id="password">
+            </div>
+            <br>            
+            <textarea name="userComment" id="userComment" cols="30" rows="10">Escribe aquí tus comentarios</textarea>
+            <br><br> 
+            <input class="enviar" type="submit" value="Enviar">        
      </form>
-     <form action=""></form>
      
     </main>
     <footer>
