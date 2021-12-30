@@ -1,3 +1,4 @@
+/*HEADER COMÚN*/
 header {
     position: fixed;
     top: 0;
@@ -37,25 +38,43 @@ nav ul li a:hover{
     color: #7ABA96;
 }
 
+/*MAIN COMÚN*/
 main {
     padding: 14rem;
 }
 
-/*TODO: Revisar los width de los contenedores*/
+/*FOOTER COMÚN*/
+footer {
+    background-color: black;   
+    width: 100%;
+    height: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer nav {
+    width: fit-content;
+}
+
+
+footer nav ul li a {
+    color: white;
+}
+
+/*INDEX*/
 
 .index {
     display: flex;
-    border: solid black;
     padding: 0;
     padding-top: 14rem;
 }
 
 .index section {
-    width: 100%;
+    width: 65%;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    margin-left: 2rem;
 }
 
 .index section article {
@@ -91,7 +110,9 @@ main {
 }
 
 aside {
-    width: 25%;
+    width: 20%;
+    margin-right: 5%;
+    margin-left: 5%;
 }
 
 aside h4 {
@@ -123,25 +144,3 @@ aside p{
     color: black;
 }
 
-/*TODO Revisar para centrar los items de la lista */
-
-footer {
-    background-color: blue;
-    width: 100%;
-    height: 5rem;
-    align-content: center;
-    padding: 0;
-}
-
-footer nav {
-    border: solid black
-}
-
-footer nav ul {
-    margin: auto;
-    border: solid black
-}
-footer nav ul li a {
-    color: white;
-    text-align: center  ;
-}
