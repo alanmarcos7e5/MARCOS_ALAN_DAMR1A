@@ -4,7 +4,7 @@ header {
     top: 0;
     left: 0;
     width: 100%;
-    background-color: white;
+    background-image: url("../imagenes/tablero-madera.jpg");
 }
 
 header figure {
@@ -36,11 +36,13 @@ nav ul li a {
 
 nav ul li a:hover{
     color: #7ABA96;
+    font-weight: bold;
 }
 
 /*MAIN COMÚN*/
 main {
     padding: 13rem;
+    padding-bottom: 5rem;
 }
 
 /*FOOTER COMÚN*/
@@ -211,10 +213,16 @@ aside p{
 }
 
 /*CONTACTO*/
+.contacto {
+    background-image: url("../imagenes/FrutasYVerduras.png");
+}
 
 .contacto form {
     display: flex;
     flex-direction: column;
+    background: rgb(223, 219, 219);
+    border-radius: 2rem 2rem;
+    padding: 2rem;
 }
 
 .nombreLink {
@@ -244,34 +252,39 @@ aside p{
 }
 
 /* LISTADO */
+.List {
+    background-image: url("../imagenes/FrutasYVerduras.png");
+}
 table {
-    border: solid black;
+    border-radius: 2rem 2rem;
     font-size: 1.2rem;
     background: rgb(223, 219, 219);
+    width: 95%;
 }
 
 th {
     display: flex;
     justify-content: space-between;
     height: 3rem;
-    border: solid blueviolet
 }
 
-
-
-th .AnchorList {
+.AnchorList {
     color: #7ABA96;
-    font-size: 1.7  rem;
+    font-size: 1.7rem;
     margin-bottom: 1rem;
-    background: brown;
 }
 
 th .AnchorList:hover{
     color: grey;
 }
 
-th .AnchorImage {
-    height: 100%;
+.AnchorImage {
+    margin-left: 0.2rem;
+    margin-right: 00.2rem;
+}
+
+.AnchorImage img{
+    height: 2.9rem;
 }
 
 .subtitulo {
@@ -282,14 +295,44 @@ td a {
     font-weight: bold;
 }
 
-tr{
-    border-bottom: 1px solid black;
-}
-
 tr {
     display: flex;
     flex-direction: column;
+    border-bottom: 1px solid black;
+    margin-left: 2%;
+    margin-right: 2%;
 }
 
+tr:last-child {
+    border-bottom: 0px solid black;
+}
 
+.pagination {
+    margin: auto;
+    margin-top: 4rem;
+    margin-bottom: 0;
+}
 
+.pagination ul {
+    list-style: none;
+    text-align: center;
+}
+
+.pagination ul li {
+    display: inline-block;
+    margin-right: 0;
+}
+
+.pagination ul li a {
+    display: block;
+    color: black;
+    background: rgb(223, 219, 219);
+    text-decoration: none;
+    padding: 1rem 2rem;
+}
+
+.pagination ul li a:hover {
+    background: #7ABA96;
+    color: grey;
+    font-weight: bold;
+}
