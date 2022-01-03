@@ -19,7 +19,7 @@ APELLIDOS: MARCOS
         </figure>
         <hr>
         <nav>
-            <ul> <!--probablemente quitar ul porque en css será necesario que no estén-->
+            <ul> 
                 <li><a href="../index.html">Inicio</a></li>
                 <li><a href="../listado/listado.html">Lista de recetas</a></li> <!--anchor a la pagina de lista-->
                 <li><a href="../contacto/contacto.html">Contactos</a></li> <!--anchor al formulario-->
@@ -27,16 +27,25 @@ APELLIDOS: MARCOS
         </nav>
         <hr>
     </header>
-    <main>
-        <table style="width: 80%">
+    <main class="List">
+        <table style="width: 90%">
             <tbody>
                 <tr>
-                    <th><a href="../receta/receta.html">Canelones</a></th>
-                    <td><a>Dificultad:</a></td>
-                    <td><a>Pasos:</a></td>
-                    <td><a>Vegetariana:</a></td>
-                    <td><a>Autor:</a></td>
+                    <th><a class="AnchorList" href="../receta/receta.html">Canelones</a>
+
+                    <a class="AnchorImage" href="https://smallpdf.com/es/editar-pdf#open=https%3A%2F%2Fdeveloper.mozilla.org%2Fes%2Fdocs%2FLearn%2FCSS%2FBuilding_blocks%2FStyling_tables" target="_blank"><img src="../imagenes/amasar.jpg" border="0"  /></a>
+                    
+                    
+                    </th>
+                    <td class="subtitulo">Receta de canelones</td>
+                    <div> <!--para poder poner los td en línea en CSS, pero no me sale-->
+                        <td><a>Dificultad:</a> Media</td>
+                        <td><a>Pasos:</a> 5</td>
+                        <td><a>Vegetariana:</a> No</td>
+                        <td><a>Autor:</a> Alan</td>
+                    </div>
                 </tr>
+                  
                 <tr>
                     <th><a href="../receta/receta.html">Canelones</a></th>
                     <td><a>Dificultad:</a></td>

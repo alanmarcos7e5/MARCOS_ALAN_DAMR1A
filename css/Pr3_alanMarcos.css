@@ -243,3 +243,53 @@ aside p{
     margin-right: 0;
 }
 
+/* LISTADO */
+table {
+    border: solid black;
+    font-size: 1.2rem;
+    background: rgb(223, 219, 219);
+}
+
+th {
+    display: flex;
+    justify-content: space-between;
+    height: 3rem;
+    border: solid blueviolet
+}
+
+
+
+th .AnchorList {
+    color: #7ABA96;
+    font-size: 1.7  rem;
+    margin-bottom: 1rem;
+    background: brown;
+}
+
+th .AnchorList:hover{
+    color: grey;
+}
+
+th .AnchorImage {
+    height: 100%;
+}
+
+.subtitulo {
+    font-style: oblique;
+}
+
+td a {
+    font-weight: bold;
+}
+
+tr{
+    border-bottom: 1px solid black;
+}
+
+tr {
+    display: flex;
+    flex-direction: column;
+}
+
+
+
