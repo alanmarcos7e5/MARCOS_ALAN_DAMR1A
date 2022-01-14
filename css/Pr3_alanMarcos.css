@@ -255,47 +255,54 @@ aside p{
 .List {
     background-image: url("../imagenes/FrutasYVerduras.png");
 }
-table {
+.sectionRecetas {
     border-radius: 2rem 2rem;
     font-size: 1.2rem;
     background: rgb(223, 219, 219);
     width: 95%;
+    padding: 1rem;
 }
 
-th {
+.sectionRecetas article div:first-child {
     display: flex;
     justify-content: space-between;
-    height: 3rem;
 }
 
 .AnchorList {
     color: #7ABA96;
     font-size: 1.7rem;
-    margin-bottom: 1rem;
+    font-weight: bold;
+    margin-top: 1rem;
 }
 
-th .AnchorList:hover{
+.AnchorList:hover{
     color: grey;
 }
 
 .AnchorImage {
     margin-left: 0.2rem;
-    margin-right: 00.2rem;
+    margin-right: 0.2rem;
+    margin-top: 0.2rem;
+    height: fit-content;
+    width: fit-content;
+}
+
+.AnchorImage img:hover{
+    background: grey;
 }
 
 .AnchorImage img{
     height: 2.9rem;
+    margin-top: 0.2rem;
 }
 
 .subtitulo {
+    font-weight: normal;
     font-style: oblique;
+    margin-bottom: 0rem;
 }
 
-td a {
-    font-weight: bold;
-}
-
-tr {
+.sectionRecetas article {
     display: flex;
     flex-direction: column;
     border-bottom: 1px solid black;
@@ -303,8 +310,33 @@ tr {
     margin-right: 2%;
 }
 
-tr:last-child {
+.sectionRecetas article:last-child {
     border-bottom: 0px solid black;
+}
+
+.sectionRecetas article figure{
+    margin: 0;
+    width: 5rem;
+    height: 5rem;
+}
+
+.sectionRecetas article figure img{
+    width: 100%;
+    height: 100%;
+}
+
+.encabezados{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    margin-top: 0rem;
+}
+.encabezados p{
+    margin-right: 0.8rem;
+}
+.encabezados p a{
+    font-weight: bold;
 }
 
 .pagination {
