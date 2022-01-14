@@ -1,0 +1,38 @@
+/*CONTACTO*/
+.contacto,.receta {
+    background-image: url("../imagenes/FrutasYVerduras.png");
+}
+
+.contacto form {
+    display: flex;
+    flex-direction: column;
+    background: rgb(223, 219, 219);
+    border-radius: 2rem 2rem;
+    padding: 2rem;
+}
+
+.nombreLink {
+    display: flex;
+    justify-content:flex-start;
+}
+
+.nombreLink input {
+    margin-right: 5%;
+}
+
+.mail {
+    display: flex;
+    justify-content:start;
+}
+
+.mail input {
+    margin-right: 5%;
+}
+
+.contacto form .enviar {
+    background: #7ABA96;
+    width: 10%;
+    height: 2rem;
+    margin-left: auto;
+    margin-right: 0;
+}
