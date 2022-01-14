@@ -212,8 +212,16 @@ aside p{
     margin-bottom: 75%;
 }
 
+.descripcion,.ingredientes,.pasos,.fotos,.descripcionFinal,.video {
+    border-radius: 2rem;
+    background: rgb(223, 219, 219);
+    padding: 1rem;
+    margin-bottom: 2rem;
+}
+
+
 /*CONTACTO*/
-.contacto {
+.contacto,.receta {
     background-image: url("../imagenes/FrutasYVerduras.png");
 }
 
