@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="recetas.xsl"?>
+<receptes>
+    <recepta id="1" fecha="13 marzo, 2019">
+        <nom>Pasta con salsa de coliflor y pimienta de Jamaica</nom>
+        <categoria>Pasta</categoria>
+        <informacio_general>
+            <foto>imagenes/Pasta.jpg</foto>
+            <enllac>https://www.youtube.com/embed/4TItDcOXjBY</enllac>
+            <comensals>4</comensals>
+            <temps unitat="minutos">25</temps>
+            <dificultat>Muy fácil</dificultat>
+            <resum>Una salsa
+                vegana para la pasta, tan sabrosa y cremosa que resulta irresistible! Está
+                elaborada con coliflor y con otros ingredientes vegetales, que la convierten
+                en un plato muy nutritivo y saludable</resum>
+        </informacio_general>
+
+        <ingredients>
+
+            <ingredient quantitat="4" unitat="cucharadas">Aceite de oliva virgen
+                                                        extra</ingredient>
+            <ingredient quantitat="1">Cebolla hermosa</ingredient>
+            <ingredient quantitat="4" unitat="dientes">Ajo</ingredient>
+            <ingredient quantitat="500" unitat="gramos">Coliflor</ingredient>
+            <ingredient quantitat="2" unitat="tazas">Caldo vegetal</ingredient>
+            <ingredient quantitat="2" unitat="cucharadas">Levadura nutricional</ingredient>
+            <ingredient quantitat="1/1" unitat="taza">Leche de almendras</ingredient>
+            <ingredient quantitat="1">sal</ingredient>
+        </ingredients>
+        <preparacio>
+            <pas numero="0">Picaremos
+                bien fina la cebolla y la sofreiremos en el aceite hasta que
+                esté translúcida.</pas>
+            <pas numero="1">Añadiremos
+                entonces los ajos prensados o picados finos. Sofreiremos medio
+                minuto más.</pas>
+            <pas numero="2">
+                Incorporaremos la coliflor troceada o separada en flores, el
+                caldo y dejaremos cocer hasta que esté tierna, seguramente se
+                consumirá gran parte del líquido.</pas>
+            <pas numero="3">Echaremos la
+                preparación en el vaso de la batidora y
+                añadiremos la leche, la levadura, los granos de pimienta y un
+                poco de sal al gusto. Batiremos hasta conseguir una textura
+                fina.</pas>
+            <pas numero="4">Una vez esté
+                bien batida, utilizaremos esta salsa para acompañar cualquier
+                plato de pasta.</pas>
+        </preparacio>
+
+
+    </recepta>
+    <recepta id="2" fecha="12 febrero, 2019">
+        <nom>Galletas de avena, rosa y lima</nom>
+        <categoria>Galletas</categoria>
+        <informacio_general>
+            <foto>imagenes/galletas.jpg</foto>
+            <enllaç>#</enllaç>
+
+            <comensals>4</comensals>
+            <temps unitat="minutos">30</temps>
+            <dificultat>Muy fácil</dificultat>
+            <resum>Galletitas para San Valentín? Estas galletas ricas y crujientes, elaboradas con avena y con un rico sabor a rosa y lima son perfectas para celebrarlo!</resum>
+        </informacio_general>
+
+        <!-- FALTA EL RESTO DE LA RECETA-->
+    </recepta>
+    <recepta id="3" fecha="1 febrero, 2019">
+        <nom>Mijo cremoso con lentejas, hortalizas y shiitakea</nom>
+        <categoria>Vegano</categoria>
+        <informacio_general>
+            <foto>imagenes/mijo.jpg</foto>
+            <enllaç>#</enllaç>
+            <comensals>4</comensals>
+            <temps unitat="minutos">45</temps>
+            <dificultat>Muy fácil</dificultat>
+            <resum>Un buen plato de mijo cremoso con lentejas y hortalizas es todo lo que necesitas para templar el cuerpo este invierno! Delicioso y fácil!</resum>
+        </informacio_general>
+        <!-- FALTA EL RESTO DE LA RECETA-->
+    </recepta>
+    <recepta id="4" fecha="18 diciembre, 2018">
+        <nom>Calabacines rellenos de arroz negro y calabaza</nom>
+        <categoria>Vegano</categoria>
+        <informacio_general>
+            <foto>imagenes/calabacines.jpg</foto>
+            <enllaç>#</enllaç>
+            <comensals>4</comensals>
+            <temps unitat="minutos">60</temps>
+            <dificultat>Fácil</dificultat>
+            <resum>Estos calabacines rellenos de arroz negro y calabaza que te propongo hoy, son la última receta que publico en el blog en…</resum>
+        </informacio_general>
+        <!-- FALTA EL RESTO DE LA RECETA-->
+    </recepta>
+    <recepta id="5" fecha="13 agosto, 2019">
+        <nom>Pudin de chía (chia pudding)</nom>
+        <categoria>Postre</categoria>
+        <informacio_general>
+            <foto>imagenes/pudding.jpg</foto>
+            <enllaç>#</enllaç>
+            <comensals>4</comensals>
+            <temps unitat="minutos">10</temps>
+            <dificultat>Medio</dificultat>
+            <resum>Este pudin de chía básico, o chia pudding es un nutritivo y delicioso tentempié, que se prepara en menos de 5 minutos con solo 4 ingredientes.</resum>
+        </informacio_general>
+        <!-- FALTA EL RESTO DE LA RECETA-->
+    </recepta>
+    <recepta id="6" fecha="2 octubre, 2019">
+        <nom>Ensalada de batata, trigo sarraceno y uvas</nom>
+        <categoria>Entrante</categoria>
+        <informacio_general>
+            <foto>imagenes/batata.jpg</foto>
+            <enllaç>#</enllaç>
+            <comensals>4</comensals>
+            <temps unitat="minutos">30</temps>
+            <dificultat>Muy fácil</dificultat>
+            <resum>Esta ensalada de batata, trigo sarraceno y uvas es un rico plato de temporada que incluye algunos de los ingredientes más típicos del otoño.</resum>
+        </informacio_general>
+        <!-- FALTA EL RESTO DE LA RECETA-->
+    </recepta>
+</receptes>

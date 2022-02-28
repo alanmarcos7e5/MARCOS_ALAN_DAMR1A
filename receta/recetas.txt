@@ -1,0 +1,6 @@
+receptes/recepta/preparacio/pas/text()
+receptes/recepta[@id='1']/ingredients/ingredient/@quantitat
+receptes/recepta/ingredients/ingredient/text()
+
+Nada que ver, pero para aumentar la memoria de ejecucion de la extension xml:
+-Xmx512m
