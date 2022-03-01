@@ -1,12 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
-    <xsl:template match="/">
+    <!--Salía mal si ponía /receptes/recepta-->
+    <!--Creaba otro html más al final, con los datos de las otras recetas-->
+    <xsl:template match="/"> 
+        <!--en la variable especifico el id-->
         <xsl:variable name="recetaId" select="receptes/recepta[@id='1']"></xsl:variable>
         <html>
 
             <head>
-                <!--No aplica los css-->
-                <!--Y crea otro html más al final, con los datos de las otras recetas-->
+                <!--No aplica los css, pero en salida los crea y bien-->
                 <meta charset="utf-8" />
                 <link rel="stylesheet" href="../css/Pr3_alanMarcos.css" />
                 <link rel="stylesheet" href="../css/style_receta.css"/>
@@ -33,6 +35,7 @@
 
                     <section class="descripcion">
                         <figure>
+                            <!--Quizás podría crear un xsl:atribute para declarar el src-->
                             <img src="{concat('../',$recetaId/informacio_general/foto)}" alt="image description"/>
                         </figure>
                     
@@ -57,6 +60,7 @@
                     <section class="ingredientes">
                         <h4>Ingredientes:</h4>
                         <ul>
+                            <!--Aplico el template de ingredientes-->
                             <xsl:apply-templates select="$recetaId/ingredients"/>
                         </ul>
                     </section>
@@ -64,6 +68,7 @@
                     <section class="pasos">
                         <h4>Pasos:</h4>
                         <ol>
+                            <!--Aplico el template de preparacion-->
                             <xsl:apply-templates select="$recetaId/preparacio"/>
                         </ol>
                     </section>
