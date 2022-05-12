@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8" />
+	<link href="http://fonts.googleapis.com/css?family=Josefin Sans" rel="stylesheet" type="text/css" />
+	<link rel="stylesheet" href="DeliciasKitchen.css" />
+	<title>Delicias Kitchen</title>
+
+	<script>
+		function loadXMLDoc(filename) {
+			//Abrimos una conexión con el servidor
+			xhttp = new XMLHttpRequest();
+			//Pedimos un fichero
+			xhttp.open("GET", filename, false);
+			try { xhttp.responseType = "msxml-document" } catch (err) { alert("Hay error"); } // Helping IE11
+			xhttp.send("");
+			return xhttp.responseXML;
+		}
+
+		function displayResult() {
+			//Queremos cargar los ficheros XML y XSLT
+			xml = loadXMLDoc("recetas.xml");
+			xsl = loadXMLDoc("recetas.xsl");
+			if (document.implementation && document.implementation.createDocument) {
+				//Lanzamos el xsltproc que tiene el navegador
+				xsltProcessor = new XSLTProcessor();
+				xsltProcessor.importStylesheet(xsl);
+				resultDocument = xsltProcessor.transformToFragment(xml, document);
+				//El resultado de la transformación los ponemos dentro del elemento
+				//section con identificador CONTENT-RECETAS
+				document.getElementById("content-recetas").appendChild(resultDocument);
+			}
+		}
+	</script>
+</head>
+
+<body class="content-body" onload="displayResult()">
+	<div class="logo">
+		<img class="logo" src="imagenes/delicias.png" alt="Logo" />
+	</div>
+
+	<header>
+		<nav>
+			<ul>
+				<li><a href="#">Inicio</a></li>
+				<li><a href="#">Sobre mí</a></li>
+				<li><a href="#">Recetas</a></li>
+				<li><a href="#">Contacto</a></li>
+				<li><a href="#">Otras cosas</a></li>
+			</ul>
+		</nav>
+	</header>
+
+	<main>
+		<aside>
+			<article class="content-isa">
+				<h3>Sobre mi</h3>
+				<img id="foto_isa" src="imagenes/isagil.png" alt="Foto Isa" />
+				<p>Hola, bienvenid@ a mi blog, un espacio donde quiero compartir mis recetas vegetarianas y veganas
+					favoritas...</p>
+			</article>
+
+			<article class="content-pub">
+				<h3>Suscríbete a mi blog</h3>
+				<img id="libro" src="imagenes/libro.png" alt="Foto libro" />
+				<p>Y consigue GRATIS mi eBook con 10 recetas exclusivas con superalimentos.</p>
+				<a class="boton"> Apúntame</a>
+			</article>
+		</aside>
+
+		<section class="content-recetas" id="content-recetas">
+		</section>
+	</main>
+
+	<footer>
+		<a href="#">Facebook</a>
+		<a href="#">Twitter</a>
+		<a href="#">Instagram</a>
+		<a href="#">Pinterest</a>
+		<a href="#">Email</a>
+		<a href="#">RSS</a>
+	</footer>
+
+</body>
+
+</html>

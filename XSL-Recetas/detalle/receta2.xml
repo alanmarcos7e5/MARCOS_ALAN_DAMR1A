@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="receptaCompleta.xsl"?>
+<recepta id="2" fecha="12 febrero, 2019">
+    <nom>Galletas de avena, rosa y lima</nom>
+    <categoria>Galletas</categoria>
+    <informacio_general>
+        <foto>imagenes/galletas.jpg</foto>
+        <enllaç>Receta.html?id=2</enllaç>
+        <comensals>4</comensals>
+        <temps unitat="minutos">30</temps>
+        <dificultat>Muy fácil</dificultat>
+        <resum>Galletitas para San Valentín? Estas galletas ricas y crujientes, elaboradas
+         con avena y con un rico sabor a rosa y lima son perfectas para celebrarlo!</resum>
+    </informacio_general>
+
+    <ingredients>
+
+        <ingredient quantitat="3/4" unitat="taza">Harina de avena</ingredient>
+        <ingredient quantitat="1/4" unitat="taza">Azúcar de coco</ingredient>
+        <ingredient quantitat="1/2" unitat="cucharada">Semillas de lino triturado</ingredient>
+        <ingredient quantitat="2" unitat="cucharadas">Agua</ingredient>
+        <ingredient quantitat="4" unitat="gotas">Esencia de rosa</ingredient>
+        <ingredient quantitat="40" unitat="ml">Aceite de oliva virgen extra</ingredient>
+        <ingredient quantitat="1/2">Lima rallada(solo la piel)</ingredient>
+    </ingredients>
+    <preparacio>
+        <pas numero="0">Echaremos todos los ingredientes de la masa de galletas en un bol y amasaremos un poco para que se mezcle todo bien. Dejaremos enfriar un rato en la nevera o unos minutos en el congelador para manipularla mejor y más cómodamente, aunque puede no ser necesario.</pas>
+        <pas numero="1">Estiraremos la masa con un rodillo y a un grosor de ½cm y con un cortapastas les haremos la forma, utilizando uno más pequeño para quitar el centro de la mitad de ellas. En el horno previamente caliente, hornearemos a 180ºC hasta que empiecen a estar doradas, más o menos unos 12 minutos, aunque cada horno es diferente y hay que estar al tanto para que no se nos quemen.</pas>
+        <pas numero="2">Las sacaremos y las dejarmenos enfriar en una rejilla para que queden crujientes. Cuando estén frías las espolvorearemos con un poco de ágave en polvo, para darle un bonito toque nevadito.</pas>
+        <pas numero="3">Para hacer la mermelada, echaremos todos los ingredientes en una olla pequeña, a fuego medio llevaremos a ebullición, bajeremos el fuego y coceremos unos 5 minutos removiendo, hasta que espese un poco. Apagaremos el fuego y dejaremos enfriar, pero no del todo, porque si no se queda dura. Cuando esté templada, pero algo firme, rellenaremos las galletas poniendo una cucharadita en el centro de una sin agujero y cubriendo con una que tenga el hueco para que se vea.</pas>
+        <pas numero="4">La mermelada en contacto con las galletas hace que si pasan muchas horas hasta su consumo, al aportarles humedad, estas se reblandecen y ya no están crujientes. Por lo que si las vas a preparar rellenas, es mejor prepararlas un rato antes de consumirlas, o no rellenarlas, guardarlas en un recipiente hermético, cuando estén frías y preparar el relleno un rato antes de servirlas.</pas>
+    </preparacio>
+
+</recepta>

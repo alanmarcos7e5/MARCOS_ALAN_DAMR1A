@@ -1,0 +1,32 @@
+<recepta id="3" fecha="1 febrero, 2019">
+        <nom>Mijo cremoso con lentejas, hortalizas y shiitakea</nom>
+        <categoria>Vegano</categoria>
+        <informacio_general>
+            <foto>imagenes/mijo.jpg</foto>
+            <enllaç>Receta.html?id=3</enllaç>
+            <comensals>4</comensals>
+            <temps unitat="minutos">45</temps>
+            <dificultat>Muy fácil</dificultat>
+            <resum>Un buen plato de mijo cremoso con lentejas y hortalizas es todo lo que 
+            necesitas para templar el cuerpo este invierno! Delicioso y fácil!</resum>
+        </informacio_general>
+
+        <ingredients>
+            <ingredient quantitat="2" unitat="cucharadas">Aceite de oliva virgen extra</ingredient>
+            <ingredient quantitat="1">Cebolla</ingredient>
+            <ingredient quantitat="2" unitat="dientes">Ajo</ingredient>
+            <ingredient quantitat="300" unitat="gramos">Boniato pelado</ingredient>
+            <ingredient quantitat="300" unitat="gramos">Coliflor</ingredient>
+            <ingredient quantitat="500" unitat="ml">Agua</ingredient>
+            <ingredient quantitat="1/2" unitat="taza">Mijo</ingredient>
+            <ingredient quantitat="1/2" unitat="taza">Lentejas rojas partidas</ingredient>
+        </ingredients>
+        <preparacio>
+            <pas numero="0">Echar las 2 cucharadas de aceite de oliva virgen extra en una olla, calentar y añadir la cebolla bien picada.</pas>
+            <pas numero="1">Cuando esté translúcida, echar los ajos prensados, remover, esperar unos segundos y echar el boniato cortado en cubitos y la coliflor también cortada en trocitos. Remover bien.</pas>
+            <pas numero="2">Echar el agua ya caliente, la sal y también las lentejas y mijo lavados y escurridos. Remover bien. Dejar cocer a fuego bajo-medio hasta que todo esté prácticamente cocido.</pas>
+            <pas numero="3">Añadir las setas shiitake, limpias y laminadas, la leche de almendras y el curry, remover y acabar de cocer unos minutos más. Rectificar de sal y tapar para que acabe de hacerse con el calor. Si falta algo de cocción, añadir algo más de líquido y continuar a fuego bajo unos minutos más; también se puede añadir algo más de curry si se desea.</pas>
+            <pas numero="4">La mermelada en contacto con las galletas hace que si pasan muchas horas hasta su consumo, al aportarles humedad, estas se reblandecen y ya no están crujientes. Por lo que si las vas a preparar rellenas, es mejor prepararlas un rato antes de consumirlas, o no rellenarlas, guardarlas en un recipiente hermético, cuando estén frías y preparar el relleno un rato antes de servirlas.</pas>
+        </preparacio>
+
+    </recepta>

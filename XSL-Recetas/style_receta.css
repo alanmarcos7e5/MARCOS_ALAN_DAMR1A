@@ -1,0 +1,72 @@
+/*RECETA*/
+.receta .descripcion figure {
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+}
+
+.receta .descripcion figure img {
+    height: 100%;
+    width: 100%;
+}
+
+.contenedorGrande {
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    width: 95%;
+    margin-left: 0%;
+    margin-right: 0%;
+}
+.contenedorFotos {
+    width: 45%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.contenedorFotos figure {
+    width: 100%;
+    padding: 0%;
+    margin: 0%;
+} 
+
+.contenedorFotos figure img {
+    width: 100%;
+    padding: 0%;
+    margin: 0%;
+}
+
+.contenedorGrande .resultadoFinal{
+    width: 40%;
+    display: flex;
+    align-items: flex-end;
+}
+
+.contenedorGrande .resultadoFinal figure{
+    width: 100%;
+    margin: 0;
+}
+
+.contenedorGrande .resultadoFinal img{
+    width: 100%;
+    align-self: flex-end;
+}
+
+.contenedorGrande .flecha {
+    width: 15%;
+    display: flex;
+    align-items: flex-end;
+}
+
+.contenedorGrande .flecha img {
+    width: 100%;
+    margin-bottom: 75%;
+}
+
+.descripcion,.ingredientes,.pasos,.fotos,.descripcionFinal,.video {
+    border-radius: 2rem;
+    background: rgb(223, 219, 219);
+    padding: 1rem;
+    margin-bottom: 2rem;
+}

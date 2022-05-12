@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="receptaCompleta.xsl"?>
+<recepta id="1" fecha="13 marzo, 2019">
+	<nom>Pasta con salsa de coliflor y pimienta de Jamaica</nom>
+	<categoria>Pasta</categoria>
+	<informacio_general>
+		<foto>imagenes/Pasta.jpg</foto>
+		<enllaç>Receta.html?id=1</enllaç>
+		<comensals>4</comensals>
+		<temps unitat="minutos">25</temps>
+		<dificultat>Muy fácil</dificultat>
+		<resum>Una salsa
+			vegana para la pasta, tan sabrosa y cremosa que resulta irresistible! Está
+			elaborada con coliflor y con otros ingredientes vegetales, que la convierten
+			en un plato muy nutritivo y saludable</resum>
+	</informacio_general>
+
+	<ingredients>
+		<ingredient quantitat="4" unitat="cucharadas">Aceite de oliva virgen
+													extra</ingredient>
+		<ingredient quantitat="1">Cebolla hermosa</ingredient>
+		<ingredient quantitat="4" unitat="dientes">Ajo</ingredient>
+		<ingredient quantitat="500" unitat="gramos">Coliflor</ingredient>
+		<ingredient quantitat="2" unitat="tazas">Caldo vegetal</ingredient>
+		<ingredient quantitat="2" unitat="cucharadas">Levadura nutricional</ingredient>
+		<ingredient quantitat="1/1" unitat="taza">Leche de almendras</ingredient>
+		<ingredient quantitat="1">sal</ingredient>
+	</ingredients>
+	<preparacio>
+		<pas numero="0">Picaremos
+			bien fina la cebolla y la sofreiremos en el aceite hasta que
+			esté translúcida.</pas>
+		<pas numero="1">Añadiremos
+			entonces los ajos prensados o picados finos. Sofreiremos medio
+			minuto más.</pas>
+		<pas numero="2">
+			Incorporaremos la coliflor troceada o separada en flores, el
+			caldo y dejaremos cocer hasta que esté tierna, seguramente se
+			consumirá gran parte del líquido.</pas>
+		<pas numero="3">Echaremos la
+			preparación en el vaso de la batidora y
+			añadiremos la leche, la levadura, los granos de pimienta y un
+			poco de sal al gusto. Batiremos hasta conseguir una textura
+			fina.</pas>
+		<pas numero="4">Una vez esté
+			bien batida, utilizaremos esta salsa para acompañar cualquier
+			plato de pasta.</pas>
+	</preparacio>
+</recepta>

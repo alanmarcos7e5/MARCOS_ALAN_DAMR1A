@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="recetas.xsl"?>
+<receptes>
+    <recepta id="1" fecha="13 marzo, 2019">
+        <nom>Pasta con salsa de mijo</nom>
+        <categoria>Pasta</categoria>
+        <informacio_general>
+            <foto>imagenes/Pasta.jpg</foto>
+            <enllaç>Receta.html?id=1</enllaç>
+            <comensals>4</comensals>
+            <temps unitat="minutos">25</temps>
+            <dificultat>Muy fácil</dificultat>
+            <resum>Una salsa
+                vegana para la pasta, tan sabrosa y cremosa que resulta irresistible! Está
+                elaborada con coliflor y con otros ingredientes vegetales, que la convierten</resum>
+        </informacio_general>
+
+        <ingredients>
+
+            <ingredient quantitat="4" unitat="cucharadas">Aceite de oliva virgen
+                                                        extra</ingredient>
+            <ingredient quantitat="1">Cebolla hermosa</ingredient>
+            <ingredient quantitat="4" unitat="dientes">Ajo</ingredient>
+            <ingredient quantitat="500" unitat="gramos">Coliflor</ingredient>
+            <ingredient quantitat="2" unitat="tazas">Caldo vegetal</ingredient>
+            <ingredient quantitat="2" unitat="cucharadas">Levadura nutricional</ingredient>
+            <ingredient quantitat="1/1" unitat="taza">Leche de almendras</ingredient>
+            <ingredient quantitat="1">sal</ingredient>
+        </ingredients>
+        <preparacio>
+            <pas numero="0">Picaremos
+                bien fina la cebolla y la sofreiremos en el aceite hasta que
+                esté translúcida.</pas>
+            <pas numero="1">Añadiremos
+                entonces los ajos prensados o picados finos. Sofreiremos medio
+                minuto más.</pas>
+            <pas numero="2">
+                Incorporaremos la coliflor troceada o separada en flores, el
+                caldo y dejaremos cocer hasta que esté tierna, seguramente se
+                consumirá gran parte del líquido.</pas>
+            <pas numero="3">Echaremos la
+                preparación en el vaso de la batidora y
+                añadiremos la leche, la levadura, los granos de pimienta y un
+                poco de sal al gusto. Batiremos hasta conseguir una textura
+                fina.</pas>
+            <pas numero="4">Una vez esté
+                bien batida, utilizaremos esta salsa para acompañar cualquier
+                plato de pasta.</pas>
+        </preparacio>
+
+
+    </recepta>
+    <recepta id="2" fecha="12 febrero, 2019">
+        <nom>Galletas de avena, rosa y lima</nom>
+        <categoria>Galletas</categoria>
+        <informacio_general>
+            <foto>imagenes/galletas.jpg</foto>
+            <enllaç>Receta.html?id=2</enllaç>
+            <comensals>4</comensals>
+            <temps unitat="minutos">30</temps>
+            <dificultat>Muy fácil</dificultat>
+            <resum>Galletitas para San Valentín? Estas galletas ricas y crujientes, elaboradas
+             con avena y con un rico sabor a rosa y lima son perfectas para celebrarlo!</resum>
+        </informacio_general>
+
+        <ingredients>
+
+            <ingredient quantitat="3/4" unitat="taza">Harina de avena</ingredient>
+            <ingredient quantitat="1/4" unitat="taza">Azúcar de coco</ingredient>
+            <ingredient quantitat="1/2" unitat="cucharada">Semillas de lino triturado</ingredient>
+            <ingredient quantitat="2" unitat="cucharadas">Agua</ingredient>
+            <ingredient quantitat="4" unitat="gotas">Esencia de rosa</ingredient>
+            <ingredient quantitat="40" unitat="ml">Aceite de oliva virgen extra</ingredient>
+            <ingredient quantitat="1/2">Lima rallada(solo la piel)</ingredient>
+        </ingredients>
+        <preparacio>
+            <pas numero="0">Echaremos todos los ingredientes de la masa de galletas en un bol y amasaremos un poco para que se mezcle todo bien. Dejaremos enfriar un rato en la nevera o unos minutos en el congelador para manipularla mejor y más cómodamente, aunque puede no ser necesario.</pas>
+            <pas numero="1">Estiraremos la masa con un rodillo y a un grosor de ½cm y con un cortapastas les haremos la forma, utilizando uno más pequeño para quitar el centro de la mitad de ellas. En el horno previamente caliente, hornearemos a 180ºC hasta que empiecen a estar doradas, más o menos unos 12 minutos, aunque cada horno es diferente y hay que estar al tanto para que no se nos quemen.</pas>
+            <pas numero="2">Las sacaremos y las dejarmenos enfriar en una rejilla para que queden crujientes. Cuando estén frías las espolvorearemos con un poco de ágave en polvo, para darle un bonito toque nevadito.</pas>
+            <pas numero="3">Para hacer la mermelada, echaremos todos los ingredientes en una olla pequeña, a fuego medio llevaremos a ebullición, bajeremos el fuego y coceremos unos 5 minutos removiendo, hasta que espese un poco. Apagaremos el fuego y dejaremos enfriar, pero no del todo, porque si no se queda dura. Cuando esté templada, pero algo firme, rellenaremos las galletas poniendo una cucharadita en el centro de una sin agujero y cubriendo con una que tenga el hueco para que se vea.</pas>
+            <pas numero="4">La mermelada en contacto con las galletas hace que si pasan muchas horas hasta su consumo, al aportarles humedad, estas se reblandecen y ya no están crujientes. Por lo que si las vas a preparar rellenas, es mejor prepararlas un rato antes de consumirlas, o no rellenarlas, guardarlas en un recipiente hermético, cuando estén frías y preparar el relleno un rato antes de servirlas.</pas>
+        </preparacio>
+
+    </recepta>
+    <recepta id="3" fecha="1 febrero, 2019">
+        <nom>Mijo cremoso con lentejas, hortalizas y shiitakea</nom>
+        <categoria>Vegano</categoria>
+        <informacio_general>
+            <foto>imagenes/mijo.jpg</foto>
+            <enllaç>Receta.html?id=3</enllaç>
+            <comensals>4</comensals>
+            <temps unitat="minutos">45</temps>
+            <dificultat>Muy fácil</dificultat>
+            <resum>Un buen plato de mijo cremoso con lentejas y hortalizas es todo lo que 
+            necesitas para templar el cuerpo este invierno! Delicioso y fácil!</resum>
+        </informacio_general>
+
+        <ingredients>
+            <ingredient quantitat="2" unitat="cucharadas">Aceite de oliva virgen extra</ingredient>
+            <ingredient quantitat="1">Cebolla</ingredient>
+            <ingredient quantitat="2" unitat="dientes">Ajo</ingredient>
+            <ingredient quantitat="300" unitat="gramos">Boniato pelado</ingredient>
+            <ingredient quantitat="300" unitat="gramos">Coliflor</ingredient>
+            <ingredient quantitat="500" unitat="ml">Agua</ingredient>
+            <ingredient quantitat="1/2" unitat="taza">Mijo</ingredient>
+            <ingredient quantitat="1/2" unitat="taza">Lentejas rojas partidas</ingredient>
+        </ingredients>
+        <preparacio>
+            <pas numero="0">Echar las 2 cucharadas de aceite de oliva virgen extra en una olla, calentar y añadir la cebolla bien picada.</pas>
+            <pas numero="1">Cuando esté translúcida, echar los ajos prensados, remover, esperar unos segundos y echar el boniato cortado en cubitos y la coliflor también cortada en trocitos. Remover bien.</pas>
+            <pas numero="2">Echar el agua ya caliente, la sal y también las lentejas y mijo lavados y escurridos. Remover bien. Dejar cocer a fuego bajo-medio hasta que todo esté prácticamente cocido.</pas>
+            <pas numero="3">Añadir las setas shiitake, limpias y laminadas, la leche de almendras y el curry, remover y acabar de cocer unos minutos más. Rectificar de sal y tapar para que acabe de hacerse con el calor. Si falta algo de cocción, añadir algo más de líquido y continuar a fuego bajo unos minutos más; también se puede añadir algo más de curry si se desea.</pas>
+            <pas numero="4">La mermelada en contacto con las galletas hace que si pasan muchas horas hasta su consumo, al aportarles humedad, estas se reblandecen y ya no están crujientes. Por lo que si las vas a preparar rellenas, es mejor prepararlas un rato antes de consumirlas, o no rellenarlas, guardarlas en un recipiente hermético, cuando estén frías y preparar el relleno un rato antes de servirlas.</pas>
+        </preparacio>
+
+    </recepta>
+    <recepta id="4" fecha="18 diciembre, 2018">
+        <nom>Calabacines rellenos de arroz negro y calabaza</nom>
+        <categoria>Vegano</categoria>
+        <informacio_general>
+            <foto>imagenes/calabacines.jpg</foto>
+            <enllaç>Receta.html?id=4</enllaç>
+            <comensals>4</comensals>
+            <temps unitat="minutos">60</temps>
+            <dificultat>Fácil</dificultat>
+            <resum>Estos calabacines rellenos de arroz negro y calabaza que te propongo hoy,
+             son la última receta que publico en el blog en…</resum>
+        </informacio_general>
+
+        <ingredients>
+            <ingredient quantitat="2">Calabacines medianos</ingredient>
+            <ingredient quantitat="1">Cebolla mediana</ingredient>
+            <ingredient quantitat="2" unitat="cucharadas">Aceite de oliva virgen extra</ingredient>
+            <ingredient quantitat="1" unitat="diente">Ajo</ingredient>
+            <ingredient quantitat="1" unitat="taza">Calabaza a cuadritos cocida</ingredient>
+            <ingredient quantitat="1" unitat="taza">Arroz negro cocido</ingredient>
+            <ingredient quantitat="2" unitat="cucharadas">Nata vegetal de tu elección</ingredient>
+        </ingredients>
+        <preparacio>
+            <pas numero="0">En el horno precalentado a 180ºC, pondremos a hornear los calabacines partidos por la mitad en una bandeja de horno con un poco de aceite en la base para que no se peguen, entre 150-180ºC (dependiendo del horno), hasta que estén al dente y la pulpa tierna (más o menos 1 hora y ¼, pero depende del horno) Yo aprovecho para hornear la calabaza a cortada a cuadritos, también hasta que esté tierna, removiéndola si es necesario para que no se queme (pueden tardar tiempos diferentes) o también la puedes hacer al vapor.</pas>
+            <pas numero="1">Mientras cocer el arroz en 1 medida de arroz por 2 y ¼ medidas de agua, después de lavarlo bien, hasta que se consuma todo el líquido.</pas>
+            <pas numero="2">Cuando estén los calabacines, quitar la pulpa con una cuchara y reservarla.</pas>
+            <pas numero="3">En una sartén, sofreír en un poco de aceite la cebolla picada, cuando esté transparente añadir el ajo triturado, la calabaza, la pulpa deshecha de los calabacines, la canela, la sal al gusto y la nata. Remover bien para que se integre todo.</pas>
+            <pas numero="4">Rellenar los calabacines con esta mezcla, dejando espacio para añadir encima un poco de arroz cocido, un poco de mozzarella y parmesano (o cualquier queso vegano que funda y gratine)</pas>
+        </preparacio>
+    </recepta>
+    <recepta id="5" fecha="13 agosto, 2019">
+        <nom>Pudin de chía (chia pudding)</nom>
+        <categoria>Postre</categoria>
+        <informacio_general>
+            <foto>imagenes/pudding.jpg</foto>
+            <enllaç>Receta.html?id=5</enllaç>
+            <comensals>4</comensals>
+            <temps unitat="minutos">10</temps>
+            <dificultat>Medio</dificultat>
+            <resum>Este pudin de chía básico, o chia pudding es un nutritivo y delicioso 
+            tentempié, que se prepara en menos de 5 minutos con solo 4 ingredientes.</resum>
+        </informacio_general>
+        <ingredients>
+            <ingredient quantitat="2">Chia</ingredient>
+            <ingredient quantitat="1">Cebolla mediana</ingredient>
+            <ingredient quantitat="2" unitat="cucharadas">Vainilla</ingredient>
+            <ingredient quantitat="1">Ágave crudo</ingredient>
+            <ingredient quantitat="1" unitat="taza">Calabaza a cuadritos cocida</ingredient>
+            <ingredient quantitat="1" unitat="taza">Arroz negro cocido</ingredient>
+            <ingredient quantitat="2" unitat="cucharadas">Nata vegetal de tu elección</ingredient>
+        </ingredients>
+        <preparacio>
+            <pas numero="0">Para hacer esta receta vegana tan solo tendrás que poner todos los ingredientes en un vaso o tarro tapado. En primer lugar, echamos las semillas de chía.</pas>
+            <pas numero="1">Echamos ahora la vainilla y el ágave crudo.</pas>
+            <pas numero="2">A continuación vertemos la leche en los vasitos, con cuidado de no pasarnos y hacerlos rebosar, para que luego nos sea más fácil remover el contenido.</pas>
+            <pas numero="3">Ahora removemos bien todo para que te quede bien mezclado. </pas>
+            <pas numero="4">Dejamos reposar los vasitos en la nevera durante unas 8 horas para que las semillas absorban todo el líquido.</pas>
+        </preparacio>
+    </recepta>
+    <recepta id="6" fecha="2 octubre, 2019">
+        <nom>Ensalada de batata, trigo sarraceno y uvas</nom>
+        <categoria>Entrante</categoria>
+        <informacio_general>
+            <foto>imagenes/batata.jpg</foto>
+            <enllaç>Receta.html?id=6</enllaç>
+            <comensals>4</comensals>
+            <temps unitat="minutos">30</temps>
+            <dificultat>Muy fácil</dificultat>
+            <resum>Esta ensalada de batata, trigo sarraceno y uvas es un rico plato
+             de temporada que incluye algunos de los ingredientes más típicos del otoño.</resum>
+        </informacio_general>
+        
+        <ingredients>
+            <ingredient quantitat="1" unitat="taza">Sarraceno cocido</ingredient>
+            <ingredient quantitat="400" unitat="gramos">Batata o boniato pelado</ingredient>
+            <ingredient quantitat="2" unitat="puñaos">rúcula</ingredient>
+            <ingredient quantitat="2" unitat="puñaos">espinacas</ingredient>
+            <ingredient quantitat="10">nueces pecanas</ingredient>
+            <ingredient quantitat="2" unitat="puñaos">uvas</ingredient>
+        </ingredients>
+        <preparacio>
+            <pas numero="0">Primero pondremos el boniato cortado en cubos pequeños en un bol y lo mezclaremos con las 2 cucharadas de aceite de oliva y los ¾ de cucharadita de canela hasta que quede todo cubierto.</pas>
+            <pas numero="1">Hornearemos a 180ºC durante unos 25 minutos. Dejaremos enfriar.</pas>
+            <pas numero="2">Lavaremos y colaremos ½ taza de trigo sarraceno crudo y lo coceremos junto con 1 taza de agua y una pizca de sal hasta que el líquido se consuma. Dejaremos enfriar.</pas>
+            <pas numero="3">El aliño lo prepararemos mezclando bien todos los ingredientes en un bol pequeño hasta conseguir una textura uniforme. Podemos rectificar del ingrediente que queramos, si es necesario. Reservaremos.</pas>
+            <pas numero="4">Montaremos la ensalada echando en un bol las hojas verdes y encima el resto de ingredientes que hemos cocinados, y también los crudos. Echaremos el aliño por encima y mezclaremos bien. Ajustar de sal o del ingrediente que más nos guste.</pas>
+        </preparacio>
+    </recepta>
+</receptes>
